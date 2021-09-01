@@ -1,13 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
 
-
-
-.company-name {
-    font-family: 'Griffy', cursive;
-}
 
 .nav-link {
-    color: rgb(0, 255, 221) !important;
+    color: rgb(193, 238, 167) !important;
 
 
 }
+
+
+.card {
+
+    border-radius: 10% 10% 4% 4%;
+ }
+
+.card img {
+    border-radius: 10% 10% 0 0;
+}
+
+.title-col {
+
+    color: #445025;
+}
+
