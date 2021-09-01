@@ -4,21 +4,16 @@ section {
 
 .nav-link {
     color: rgb(193, 238, 167) !important;
-
-
 }
 
 .card {
-
     border-radius: 10% 10% 4% 4%;
  }
 
 .card img {
     border-radius: 10% 10% 0 10%;
 }
-
 .title-col {
-
     color: #445025;
 }
 
