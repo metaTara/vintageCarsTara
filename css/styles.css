@@ -8,14 +8,13 @@ section {
 
 }
 
-
 .card {
 
     border-radius: 10% 10% 4% 4%;
  }
 
 .card img {
-    border-radius: 10% 10% 0 0;
+    border-radius: 10% 10% 0 10%;
 }
 
 .title-col {
@@ -23,17 +22,4 @@ section {
     color: #445025;
 }
 
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
 
