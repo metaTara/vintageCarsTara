@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- my CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+   </head>
+  <body>
+   
+    <header>
+      <!-- navbar: Cars , Enquires, Contact -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Vintage Car Hire</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Enquires</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End navbar -->
+      <!-- Main heading -->
+      <h2 class="text-left text-secondary pt-3 pb-3">Vintage Cars for Hire</h2>
+    </header>
+    <main>
+      <!-- start section Cars -->
+      <section class="container" id="cars">
+        <h2 class="text-left"> Car Listing</h2>
+        <div class="container">
+            <div class="row">
+                <!-- Card 1 start-->
+              <div class="col"> 
+                <div class="card my-3" style="width: 18rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+              </div>
+              <!-- Card 1 end -->
+                <!-- Card 2 start-->
+                <div class="col"> 
+                    <div class="col"> 
+                        <div class="card my-3" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Card 2 end -->
+                    <!-- Card 3 start-->
+              <div class="col"> 
+                <div class="col"> 
+                    <div class="card my-3" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <!-- Card 3 end -->
+                <!-- Card 4 start-->
+                <div class="col"> 
+                    <div class="col"> 
+                        <div class="card my-3" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                  <!-- Card 4 end -->
+              
+             </div> <!-- end row -->
+          </div><!-- end card list container -->
+      </section>
+      <!-- end section Cars -->
+
+      <!-- start section Enquires -->
+      <section class="container" id="enquires ">
+<h2 class="text-left"> Enquire about a car</h2>
+<!-- start enquiry form -->
+<div class="continer bg-secondary p-1 ">
+<form class="bg-light p-3">
+    <div class="m-3" >
+        <label for="task-name" class="col-form-label"> Name</label>
+        <input type="text" class="form-control" id="task-name" name="task-name">
+      </div>
+      <div class="m-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="m-3 form-group">
+        <label for="exampleFormControlSelect1">Choose car</label>
+        <select class="form-select" id="exampleFormControlSelect1">
+          <option>Pink vintage</option>
+          <option>Blue sedan</option>
+          <option>Grey BMW</option>
+          <option>Teal Beetle</option>
+        </select>
+      </div>
+
+      <div class="m-3">
+        <label for="description" class="col-form-label">Comments</label>
+        <textarea class="form-control" id="description" name="description"></textarea>
+      </div>
+      <div class="m-3">
+        <button class="btn btn-primary" type="submit">Submit</button>
+      </div>
+    
+</form></div>
+<!-- end enquiry form -->
+      </section>
+      <!-- end section Enquires -->
+      <!-- start section Contact -->
+      <section id="contact"></section>
+      <!-- end section Contact -->
+    </main>
+    <!-- back to to button -->
+    <!-- footer start -->
+    <footer>
+      <p>Copyright@ All rights reserved, 2021</p>
+    </footer>
+    <!-- footer end -->
+  </body>
+</html>
