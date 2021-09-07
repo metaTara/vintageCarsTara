@@ -6,6 +6,11 @@ section {
     color: rgb(193, 238, 167) !important;
 }
 
+ .nav-item a:hover{
+    color: black !important;
+}
+
+
 .card {
     border-radius: 10% 10% 4% 4%;
  }
